@@ -32,7 +32,7 @@ const projectDetails = {
       Stack: "React, JavaScript, Tailwind CSS",
       Category: "Frontend Dashboard Application",
       Timeline: "2026",
-      Status: "Completed",
+      Status: "Still-going",
       Role: "UI/UX Design & Frontend Development",
       Overview:
         "Designed with a strong focus on usability, hierarchy, and dashboard readability, the interface prioritizes fast workflows, responsive layouts, and structured information architecture.",
