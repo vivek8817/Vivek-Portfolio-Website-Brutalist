@@ -51,8 +51,8 @@ const projectDetails = {
       "Framer Motion",
     ],
     links: {
-      github: "https://github.com/vivekahirwar/crm-dashboard",
-      live: "https://crm-dashboard-demo.vercel.app",
+      github: "https://github.com/vivek8817/CRM-Employee-Management-Dashboard",
+      live: "https://crm-employee-management-five.vercel.app/",
     },
     image: CRM_Dashboard,
     galleryImages: {
@@ -90,8 +90,8 @@ const projectDetails = {
       "JavaScript",
     ],
     links: {
-      github: "https://github.com/vivekahirwar/crm-website",
-      live: "https://crm-website-demo.vercel.app",
+      github: "https://github.com/vivek8817/CRM-Website-Modern-SAAS-Style",
+      live: "https://crm-website-modern-saas-style.vercel.app/",
     },
     image: CRM_Website,
     galleryImages: {
@@ -132,8 +132,8 @@ const projectDetails = {
       "Tailwind CSS",
     ],
     links: {
-      github: "https://github.com/vivekahirwar/taskify",
-      live: "https://taskify-app-demo.vercel.app",
+      github: "https://github.com/vivek8817/Taskify-full-stack-MERN-project",
+      live: "https://taskify-full-stack-mern-project.vercel.app/login",
     },
     image: Taskify,
     galleryImages: {
@@ -171,8 +171,8 @@ const projectDetails = {
       "JavaScript",
     ],
     links: {
-      github: "https://github.com/vivekahirwar/macos-portfolio",
-      live: "https://macos-portfolio-demo.vercel.app",
+      github: "https://github.com/vivek8817/MacOs-Operating-System-Portoflio-",
+      live: "https://mac-os-operating-system-portoflio.vercel.app/",
     },
     image: macOS_Portfolio,
     galleryImages: {
@@ -210,8 +210,8 @@ const projectDetails = {
       "DnD Kit",
     ],
     links: {
-      github: "https://github.com/vivekahirwar/trello-dnd-manager",
-      live: "https://trello-dnd-demo.vercel.app",
+      github: "https://github.com/vivek8817/react-kanban-board",
+      live: "https://react-kanban-board-alpha.vercel.app/",
     },
     image: Trello_Dnd,
     galleryImages: {
@@ -261,7 +261,7 @@ const ProjectDetail = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 ">
           <aside className="lg:col-span-4 ">
             <div className="lg:sticky lg:top-8">
-              <Reveal delay="100ms">
+              <Reveal delay="600ms">
                 <Link
                   to="/"
                   className="inline-block mb-16 text-base font-medium text-gray-500 hover:text-black transition-colors duration-300"
@@ -280,7 +280,7 @@ const ProjectDetail = () => {
           <div className="lg:col-span-8">
             <Reveal
               className="max-w-[760px] mb-16"
-              delay="300ms"
+              delay="600ms"
             >
               <h2 className="mb-8 text-2xl font-bold leading-tight text-black">
                 {project.headline}
@@ -293,7 +293,7 @@ const ProjectDetail = () => {
             <Reveal
               as="dl"
               className="mb-16 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6"
-              delay="400ms"
+              delay="600ms"
             >
               {summaryRows.map(([label, value]) => (
                 <div key={label} className="border-t border-dashed border-gray-300 pt-4">
@@ -310,7 +310,7 @@ const ProjectDetail = () => {
             <div className="flex flex-col gap-8">
               <Reveal
                 className="w-full aspect-video bg-gray-200 overflow-hidden"
-                delay="100ms"
+                delay="600ms"
               >
                 <img
                   src={project.image}
@@ -322,7 +322,7 @@ const ProjectDetail = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <Reveal
                   className="w-full aspect-square bg-gray-200 overflow-hidden"
-                  delay="100ms"
+                  delay="600ms"
                 >
                   <img
                     src={project.galleryImages.left}
@@ -332,7 +332,7 @@ const ProjectDetail = () => {
                 </Reveal>
                 <Reveal
                   className="w-full aspect-square bg-gray-200 overflow-hidden"
-                  delay="200ms"
+                  delay="600ms"
                 >
                   <img
                     src={project.galleryImages.right}
@@ -344,7 +344,7 @@ const ProjectDetail = () => {
 
               <Reveal
                 className="w-full aspect-video bg-gray-200 overflow-hidden"
-                delay="100ms"
+                delay="600ms"
               >
                 <img
                   src={project.galleryImages.last}
